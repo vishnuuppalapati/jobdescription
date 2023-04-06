@@ -1,0 +1,193 @@
+.MainDashboard{
+    height: 100vh;
+    width: 100%;
+}
+.sideNav{
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background-color: #2a58ad;
+}
+.header{
+    background: #fefefe;
+    padding: 18px 18px 0px 18px;
+}
+.headerItems{
+    display: flex;
+    justify-content: space-between;
+}
+.imageListItems{
+    float: left;
+}
+.menuItems .listItems li:first-of-type{
+    padding-bottom: 28px;
+    color: #3ba3d5;
+    border-bottom: 2px solid #3ba3d5;
+}
+.listItems{
+    list-style-type: none;
+    display: flex;
+    gap:28px;
+    margin-bottom: 0px;
+}
+.logoutMenuItems{
+    float:right;
+}
+.RightContent{
+    width: 80%;
+    float: left;
+    background-color: #eaeef2;
+    height: 100vh;
+}
+.leftNavContent{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.leftNavContent .avatarImg {
+    border-radius: 54px;
+}
+.profileData p{
+    color: #c7deff;
+    line-height: 0.5;
+}
+.profileData p:nth-child(2) {
+    color: #4aaaf2;
+}
+.updateProfileButton button{
+    color: #fff;
+    background-color: #2a58ad;
+    padding: 8px 17px;
+    border-color: #4aaaf2;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+
+.leftMenuList{
+    padding-top: 20px;
+    list-style-type: none;
+}
+.leftMenuList li{
+}
+ul.leftMenuList {
+    margin-right: 38px;
+}
+
+.listSecondElement{
+    border-left: 5px solid #36a0e7;
+    background-color: #1c4c9e;
+    padding-bottom: 4px;
+}
+
+.leftMenuItems p{
+    line-height: 0.5;
+    font-size: 13px;
+}
+.contentClass{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5;
+}
+.contentClass p:first-of-type{
+    font-size: 20px;
+}
+.secondHeader{
+    list-style-type: none;
+    display: flex;
+    gap:28px;
+    margin-bottom: 0px;   
+}
+.secondHeader button{
+    padding: 5px 10px;
+    background-color: #fefefe;
+    border-color: #686868;
+    border-radius: 16px;
+}
+#activeIcon{
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+.MainContent{
+    padding: 18px 40px;
+}
+
+.subHeader{
+    margin-left: -40px;
+}
+
+.subMenuItems{
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 40px;
+    border-bottom: 1px solid;
+}
+.subMenuItems p:first-of-type{
+    margin-bottom: 0px;
+    padding-bottom: 28px;
+    color: #3ba3d5;
+    border-bottom: 3px solid #3ba3d5;
+}
+
+.contentTwo{
+    margin-top:40px;
+}
+.jobDescription{
+    background-color: #fefefe;
+    width:60%;
+    float: left;
+    padding: 22px;
+}
+.tablerow{
+    line-height: 36px;
+}
+.tdone{
+    width:36%;
+}
+.lastTd{
+    line-height: 16px;
+}
+
+.subContent{
+    background-color: #fefefe;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    padding: 8px 20px;
+}
+
+.facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.subContent2{
+    background-color: #fefefe;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    height: 308px;
+}
+.subContentInside{
+    display: flex;
+    flex-direction: row;
+    line-height: 0.5;
+    align-items: center;
+    font-size: 11px;
+    padding-left: 36px;
+    border-bottom: 2px solid whitesmoke;
+}
+.textContent{
+    padding-left: 36px;
+}
+#poneId{
+    font-size: 12px;
+    color: #3ba3d5;
+}
+
